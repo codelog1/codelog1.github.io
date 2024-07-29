@@ -198,6 +198,11 @@ defaults:
 sass:
   style: compressed
 
+# plugins 목록에 설치된 플러그인들을 추가합니다
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+
 compress_html:
   clippings: all
   comments: all
