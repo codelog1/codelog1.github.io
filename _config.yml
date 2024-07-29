@@ -202,6 +202,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-compose
 
 compress_html:
   clippings: all
