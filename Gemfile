@@ -13,6 +13,11 @@ gem "jekyll-coffeescript"
 gem "jekyll-seo-tag", "~> 1.5"
 gem "some-other-jekyll-plugin"
 
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+  gem 'jekyll-gist'
+end
+
 group :test do
   gem "html-proofer", "~> 5.0"
 end
