@@ -10,8 +10,9 @@ gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 # 사이트 구성.
 gem "jekyll-gist"
 gem "jekyll-coffeescript"
-gem "jekyll-seo-tag", "~> 1.5"
+gem "jekyll-seo-tag", "~> 2.8.0"
 gem "some-other-jekyll-plugin"
+gem install bundler
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
